@@ -1,0 +1,76 @@
+Here are some of the best backup tools for **Linux** and **Windows**, categorized into **command-line** and **GUI** tools.
+
+---
+
+## 🔹 **Linux Backup Tools**  
+
+### **Command-Line Tools**  
+1. **rsync** – Fast and efficient file synchronization and backup tool.  
+   - Example:  
+     ```bash
+     rsync -av --progress /source/ /destination/
+     ```
+2. **BorgBackup (Borg)** – Deduplicating backup tool with compression and encryption.  
+   - Example:  
+     ```bash
+     borg init --encryption=repokey /backup/location
+     borg create --progress /backup/location::backup1 /home/user
+     ```
+3. **Restic** – Secure, fast, and efficient backup with built-in encryption.  
+   - Example:  
+     ```bash
+     restic init --repo /mnt/backup
+     restic backup /home/user --repo /mnt/backup
+     ```
+4. **Duplicity** – Incremental, encrypted backups using rsync and GPG.  
+   - Example:  
+     ```bash
+     duplicity /home/user file:///mnt/backup
+     ```
+5. **Tar + Cron** – Simple scheduled backups using tar and cron jobs.  
+   - Example:  
+     ```bash
+     tar -cvzf backup.tar.gz /home/user
+     ```
+
+### **GUI Tools**  
+1. **Timeshift** – Best for system snapshots (like Windows System Restore).  
+2. **Déjà Dup** – Simple GNOME backup tool with encryption and cloud storage support.  
+3. **KBackup** – KDE-based backup tool with an easy-to-use interface.  
+4. **Back In Time** – Uses rsync for snapshots, great for personal backups.  
+5. **UrBackup** – Client-server backup solution with GUI management.
+
+---
+
+## 🔹 **Windows Backup Tools**  
+
+### **Command-Line Tools**  
+1. **Robocopy** – Advanced file copying and backup tool.  
+   - Example:  
+     ```cmd
+     robocopy C:\Source D:\Backup /MIR /R:3 /W:5
+     ```
+2. **wbadmin** – Built-in Windows backup tool.  
+   - Example:  
+     ```cmd
+     wbadmin start backup -backupTarget:D: -include:C:
+     ```
+3. **Rclone** – Cloud storage synchronization and backup tool.  
+   - Example:  
+     ```cmd
+     rclone sync C:\Users\Toni\Documents remote:backup
+     ```
+4. **Restic** – Same as Linux version, cross-platform backup with encryption.  
+5. **Duplicati CLI** – Secure, deduplicated backups for Windows and Linux.
+
+### **GUI Tools**  
+1. **Macrium Reflect** – Full-disk imaging and incremental backups.  
+2. **EaseUS Todo Backup** – User-friendly, supports full, incremental, and differential backups.  
+3. **AOMEI Backupper** – Feature-rich tool for system cloning and backup.  
+4. **Cobian Backup** – Free and reliable file backup tool.  
+5. **Veeam Agent for Windows** – Enterprise-grade backup solution.  
+6. **Duplicati** – Cross-platform GUI tool with cloud storage support.  
+
+---
+
+**Which one do you need, or are you looking for a specific feature like cloud backup, incremental backup, or encryption?** 🚀

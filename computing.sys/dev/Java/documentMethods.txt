@@ -1,0 +1,47 @@
+Объект document предоставляет множество методов и свойств для работы с HTML-документом в JavaScript. 
+Ниже приведены некоторые из самых часто используемых методов объекта document:
+
+* getElementById(id): Возвращает элемент по его уникальному идентификатору (id).
+Пример:
+const element = document.getElementById('myElement');
+
+
+* getElementsByClassName(className): Возвращает коллекцию элементов с заданным классом.
+Пример:
+const elements = document.getElementsByClassName('myClass');
+
+
+* getElementsByTagName(tagName): Возвращает коллекцию элементов с заданным тегом.
+Пример:
+const elements = document.getElementsByTagName('p');
+
+
+* querySelector(selector): Возвращает первый элемент, соответствующий заданному селектору CSS.
+Пример:
+const element = document.querySelector('.myClass');
+
+
+* querySelectorAll(selector): Возвращает все элементы, соответствующие заданному селектору CSS.
+Пример:
+const elements = document.querySelectorAll('.myClass');
+
+
+* createElement(tagName): Создает новый элемент с указанным тегом.
+Пример:
+const newElement = document.createElement('div');
+
+
+appendChild(node): Добавляет дочерний узел (элемент) к элементу.
+Пример:
+parentElement.appendChild(newElement);
+
+
+* removeChild(node): Удаляет дочерний узел (элемент) из элемента.
+Пример:
+parentElement.removeChild(childElement);
+
+
+* addEventListener(event, callback): Добавляет обработчик события к элементу.
+Пример:
+element.addEventListener('click', function(event) {
+}
