@@ -69,6 +69,7 @@
 * [freeCodeCamp.org/news](https://www.freecodecamp.org/news/)
 
 
+> Docker, VirtualBox, VSCode, Python, Github Copilot, Pinterest
 
 
 
@@ -339,6 +340,7 @@ n = int(input("N: ")) summa = 0 for i in range(1, n+1): summa += i print(summa)
 * [Python Interpreter](https://docs.python.org/3/index.html)
 * [Pypi.org - More Python libraries](https://pypi.org/)
 * [awesome-python](https://github.com/vinta/awesome-python.git) - An opinionated list of awesome Python frameworks, libraries, softwares.
+* [uv](https://github.com/astral-sh/uv.git) - An extremely fast Python package and project manager, written in Rust. 
 * Django/Flask, Scapy/Netmiko/Paramiko, 
 * Requests/BeautifulSoup;
 * [scapy/python library](https://scapy.net) Python library for network package
@@ -385,6 +387,12 @@ Evilginx3 — Новое поколение фишинговых 2FA-токен�
 #Защита информации
 https://www.youtube.com/live/QUwLjylXRq0?si=gC1Za2cWagF2qPEi
 «Ақпараттық қауіпсіздік және дербес деректерді қорғау мәселелері туралы»
+
+📌 Итого:
+Если нужен минимальный, но мощный набор, то это:
+👉 Kali Linux (как платформа) + Metasploit (эксплойты) 
++ Burp Suite (веб-безопасность). 
++ Nmap, Wireshark, netdiscover
 -------------------------------------------------
 Эриксон Д.
 Хакинг: искусство эксплойта. 2-е изд. Питер, 2018.
@@ -529,9 +537,6 @@ Strace, Ltrace – анализ системных вызовов.
 15. Web Pentest
 - Burp Suite: Ловец HTTP-трафика, пентест сайтов
 - OWASP ZAP: Open Source аналог Burp
-- SQLmap: SQL-инъекции
-- XSS-Scanner: Поиск XSS уязвимостей
-- dirsearch / gobuster / ffuf: Brute-force директорий и URL
 
 16. Трафик и сниффинг
 - Wireshark: Анализ сетевых пакетов
@@ -892,6 +897,7 @@ Memory: 4834MiB / 7271MiB
 **********************************************************
 Xiaomi, Samsung, D-link, TpLink, Mikrotik, Asus, HP, LG
 * notebook/miniPC/tablet/smartphone/keyboard
+* Док-станция Xiaomi XMTIO01YM - Легко расширяйте порты и повышайте эффективность
 * маршрутизатор mikrotik RouterBoard/RouterOS
 * коммутатор/switch TP-Link/D-Link/hikvision/HUAWEI/Ubiquiti
 * микропроцессоры и микроконтроллеры для создания цифровых устройств 
