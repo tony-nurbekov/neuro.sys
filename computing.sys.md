@@ -28,18 +28,8 @@
 **********************************************************
 * [awesome-github Lists](https://github.com/topics/awesome) - An awesome list is a list of awesome things curated by the community.
 * [awesome-interesting](https://github.com/sindresorhus/awesome) - Awesome lists about all kinds of interesting topics
-* [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps.git) - A curated list of command line apps
-* [awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking.git) - A collection of various awesome lists for hackers, pentesters and security researchers
-* [awesome-java](https://github.com/akullpp/awesome-java.git) - A curated list of awesome frameworks, libraries and software for the Java programming language.
-* [awesome-shell](https://github.com/alebcay/awesome-shell.git) - A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.
-* [awesome-docker](https://github.com/veggiemonk/awesome-docker.git)A curated list of Docker resources and projects
-* [awesome-chatgpt](https://github.com/sindresorhus/awesome-chatgpt.git) -  Awesome list for ChatGPT — an artificial intelligence chatbot developed by OpenAI
-* [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai.git) - A curated list of modern Generative Artificial Intelligence projects and services
-* [awesome-compose](https://github.com/docker/awesome-compose.git) - Awesome Docker Compose samples
-* [awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide.git) - Единое хранилище обновлений исследований генеративного ИИ
-* [awesome-the-secret-book](https://github.com/T-450/the-book-of-secret-knowledge) - A curated list of, docs, cheatsheet, cli/web-tools.
-* [awesome-generative-ai-data-scientist](https://github.com/business-science/awesome-generative-ai-data-scientist.git) -
-* [awesome Generative AI](https://github.com/filipecalegario/awesome-generative-ai.git) - Подборка инструментов, работ, моделей и ссылок на генеративный ИИ
+----------
+* []() -
 
 
 
@@ -49,14 +39,11 @@
 * [site/digitalize](https://digitalize.team) - Диджитализируй! делает сложные информационные системы для бизнеса
 * [site/digitalize](https://salesbeat.pro) - модуль доставки для интернет-магазинов, каким он должен быть
 * [site/to.digital](https://to.digital/) - Сайт книжный клуб, в котором мы читаем и прорабатываем хорошие ИТ книги
-* [GNU Linux Pro](https://gnulinux.pro) - Сайт Про GNU/Linux и IT
 * [youtube/@GNU Linux Pro](https://www.youtube.com/@GNULinuxPro) - Youtube chanel Про GNU/Linux и IT
 * [youtube/@Alek OS](https://youtube.com/@AlekOS) - Вечное совершенствование себя через осмысливание новой информации
 * [site/@stashchuk](https://stashchuk.com) - development and DevOps courses
 * [youtube/@Bogdan Stashchuk](www.youtube.com/@Bogdan_Stashchuk) - development and DevOps courses
 * [youtube.com/@artsorax](https://www.youtube.com/@artsorax) - Уроки веб-разработки
-* [art.sorax@gmail.com]() - account sorax
-* [site/sorax](http://sorax.org)
 
 
 
@@ -67,8 +54,6 @@
 * [ascii table](https://asciiart.website/) - in terminal
 * [data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook.git) - This is a repo with links to everything you'd ever want to learn about data engineering
 * [freeCodeCamp.org/news](https://www.freecodecamp.org/news/)
-
-
 > Docker, VirtualBox, VSCode, Python, Github Copilot, Pinterest
 
 
@@ -111,6 +96,12 @@ mini/micro infrastructure(client–server arch): app for data processing
 
 ### AI, ML:machine learning, LLM:Large language model, neural network
 **********************************************************
+* [awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide.git) - Единое хранилище обновлений исследований генеративного ИИ
+* [awesome-generative-ai-data-scientist](https://github.com/business-science/awesome-generative-ai-data-scientist.git) -
+* [awesome-chatgpt](https://github.com/sindresorhus/awesome-chatgpt.git) -  Awesome list for ChatGPT — an artificial intelligence chatbot developed by OpenAI
+* [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai.git) - A curated list of modern Generative Artificial Intelligence projects and services
+* [awesome Generative AI](https://github.com/filipecalegario/awesome-generative-ai.git) - Подборка инструментов, работ, моделей и ссылок на генеративный ИИ
+
 1. Фреймворки и платформы:
 * [Ollama - для запуска llm](https://github.com/ollama/ollama/tree/main/docs)
 * [LangChain]()
@@ -208,7 +199,6 @@ Supported by the Free Software Foundation
 
 ### Containers - изоляция приложений + совместное ядро с основной системой
 **********************************************************
-
 - Базовые понятия Docker
 
 В программной инженерии контейнеризация — это виртуализация на уровне операционной системы 
@@ -229,6 +219,8 @@ Registry Хранилище образов (Docker Hub) «Склад готов�
 Volume Внешнее постоянное хранилище данных «Чемодан, который заберёшь»
 Network Вирт. сети между контейнерами «Проводка и маршруты в доме»
 
+* [awesome-docker](https://github.com/veggiemonk/awesome-docker.git)A curated list of Docker resources and projects
+* [awesome-compose](https://github.com/docker/awesome-compose.git) - Awesome Docker Compose samples
 * [Repo for download Docker/Docker Compose](https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/)
 * [Docker Model Runner](https://docs.docker.com/ai/model-runner/)
 * [Docker Hub](https://hub.docker.com/)
@@ -332,10 +324,14 @@ n = int(input("N: ")) summa = 0 for i in range(1, n+1): summa += i print(summa)
 
 --- 
 
+* [Github.com/tkhirianov](https://github.com/tkhirianov)
+* [Bogdan Stashchuk](https://github.com/bstashchuk)
+
 1. Text editors and IDE: Static and Dynamic Analyze Source Code 
 * [JetBrains IDE: IntelliJ IDEA]() 
 * [VSCode](https://code.visualstudio.com/)
 * [LibreOffice'  MS Office]()
+----------
 2. Compiler/decompile, interpreter/asembler/dizasembler - elf/apk:
 * [Python Interpreter](https://docs.python.org/3/index.html)
 * [Pypi.org - More Python libraries](https://pypi.org/)
@@ -344,15 +340,26 @@ n = int(input("N: ")) summa = 0 for i in range(1, n+1): summa += i print(summa)
 * Django/Flask, Scapy/Netmiko/Paramiko, 
 * Requests/BeautifulSoup;
 * [scapy/python library](https://scapy.net) Python library for network package
+----------
+* [awesome-java](https://github.com/akullpp/awesome-java.git) - A curated list of awesome frameworks, libraries and software for the Java programming language.
 * [Java Compiler (javac)](https://dev.java/)
 * [javase](https://docs.oracle.com/en/java/javase/)
 * [openJDK-Github repo](https://github.com/openjdk)
 * [jdk.java.net](https://jdk.java.net/)
 * [introcs.cs.princeton.edu/java/11cheatsheet](https://introcs.cs.princeton.edu/java/11cheatsheet/)
 * [dev.java/learn](https://dev.java/learn/getting-started/)
+----------
 * [ANSI C — стандарт языка C: g++ / clang++](https://ru.wikipedia.org/wiki/ANSI_C)
 * [Системы контроля версий Git:](https://git.com)
 * [github.com/TheAlgorithms](https://github.com/TheAlgorithms)
+
+
+
+
+
+
+
+
 * Редактор:     Neovim + markdown-preview / Obsidian
 * Линтер:       markdownlint
 * Конвертер:    Pandoc
@@ -388,9 +395,9 @@ Evilginx3 — Новое поколение фишинговых 2FA-токен�
 https://www.youtube.com/live/QUwLjylXRq0?si=gC1Za2cWagF2qPEi
 «Ақпараттық қауіпсіздік және дербес деректерді қорғау мәселелері туралы»
 
-📌 Итого:
+Итого:
 Если нужен минимальный, но мощный набор, то это:
-👉 Kali Linux (как платформа) + Metasploit (эксплойты) 
++ Kali Linux (как платформа) + Metasploit (эксплойты) 
 + Burp Suite (веб-безопасность). 
 + Nmap, Wireshark, netdiscover
 -------------------------------------------------
@@ -445,6 +452,9 @@ Shellcode / Rootkits	C, Assembly
 kali/blackarch tools
 **********************************************************
 
+* [awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking.git) - A collection of various awesome lists for hackers, pentesters and security researchers
+* [Black Arch GNU/Linux](https://blackarch.org/tools)
+* [kali tools](https://www.kali.org/tools/all-tools/)
 * [Hacking Articles by Raj Chandel’s Blog](https://hackingarticles.in)
 * [AppSec сообщество - ORDA](https://cyberorda.com/#)
 
@@ -667,19 +677,22 @@ API Низкого уровня(WindowsAPI, Linux syscalls)
 Структура языков программирование,  
 Java/С/С++(ядро языка (синтаксис) +  стандартная библиотека)
 **********************************************************
-
+* [awesome-linux](https://github.com/inputsh/awesome-linux.git) - 🐧 A list of awesome projects and resources that make Linux even more awesome. 
+* [Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software.git) - A list of awesome Linux softwares
+* [awesome-the-secret-book](https://github.com/T-450/the-book-of-secret-knowledge) - A curated list of, docs, cheatsheet, cli/web-tools.
+* [awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets.git) - Awesome cheatsheets for popular programming languages, frameworks and development tools.
+* [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps.git) - A curated list of command line apps
+* [awesome-shell](https://github.com/alebcay/awesome-shell.git) - A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.
+* [GNU Linux Pro](https://gnulinux.pro) - Сайт Про GNU/Linux и IT
 * [Ubuntu 24.04.2LTS GNU/Linux /kali/debian/Android/termux/unix based systems](https://docs.ubuntu.com/)
 * [Пакеты Ubuntu «Deb» — это сердце Ubuntu](https://packages.ubuntu.com/src:)
 * [LAMP: Linux+Apache2/nginx+PostgreSQL/SQLite+Python/JS/Node.js](https://github.com/gnulinuxpro)
 * [Linus Torvolds >> Linux and Git](https://github.com/torvalds)
 * [The Linux Kernel Archives](https://www.kernel.org/) 
-* [kali tools](https://www.kali.org/tools/all-tools/)
-* [Black Arch GNU/Linux](https://blackarch.org/tools)
+* [awesome-reverse-engineering](https://github.com/alphaSeclab/awesome-reverse-engineering.git) - Reverse Engineering Resources All Platforms(Windows/Linux/macOS/Android/iOS/IoT)
+(More than 3500 open source tools and 2300 posts&videos)
 * [source.android.com](https://source.android.com/docs/security)
-* [Github.com/tkhirianov](https://github.com/tkhirianov)
-* [Bogdan Stashchuk](https://github.com/bstashchuk)
-* [AIDA64 - Диагностичесские инструменты](https://www.aida64.com/downloads)
-* [CPU-Z for Windows x86/x64 is a gathers information of the main devices of your system](https://www.cpuid.com/)
+* [awesome-windows](https://github.com/0PandaDEV/awesome-windows.git) - An awesome & curated list of tools and apps for Windows 10/11.
 **********************************************************
 "Best practice" for Data storage/Data backup:: 
 USB/HDD/SSD/Google/Dropbox/Yandex Cloud:
