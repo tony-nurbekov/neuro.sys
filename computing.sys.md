@@ -54,7 +54,10 @@
 * [ascii table](https://asciiart.website/) - in terminal
 * [data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook.git) - This is a repo with links to everything you'd ever want to learn about data engineering
 * [freeCodeCamp.org/news](https://www.freecodecamp.org/news/)
-> Docker, VirtualBox, VSCode, Python, Github Copilot, Pinterest
+* [4PDA:](https://4pda.to/) - Всё о мобильных устройствах и технологиях
+* [adilet.zan.kz](https://adilet.zan.kz/kaz) - Қазақстан Республикасы нормативтік құқықтық актілерінің ақпараттық-құқықтық жүйесі
+* [zona.plus](https://w140.zona.plus/) - torrent for movie, games
+> Docker, VirtualBox, VSCode, Python, PyTorch, Github Copilot, HuggingFace + LangChain + Whisper.
 
 
 
@@ -94,7 +97,7 @@ mini/micro infrastructure(client–server arch): app for data processing
 
 
 
-### AI, ML:machine learning, LLM:Large language model, neural network
+### AI, ML:machine learning, LLM:Large language model for processing: spirit, neuro.systems
 **********************************************************
 * [awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide.git) - Единое хранилище обновлений исследований генеративного ИИ
 * [awesome-generative-ai-data-scientist](https://github.com/business-science/awesome-generative-ai-data-scientist.git) -
@@ -102,7 +105,66 @@ mini/micro infrastructure(client–server arch): app for data processing
 * [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai.git) - A curated list of modern Generative Artificial Intelligence projects and services
 * [awesome Generative AI](https://github.com/filipecalegario/awesome-generative-ai.git) - Подборка инструментов, работ, моделей и ссылок на генеративный ИИ
 
-1. Фреймворки и платформы:
+
+
+1. Структурированный список инструментов для инфраструктуры AI-систем, AI-агентов на GNU/Linux 
+> Docker, VirtualBox, VSCode, Python, PyTorch, Github Copilot, HuggingFace + LangChain + Whisper.
+Остальное можно подключать по мере роста проекта.
+
+* База системы и среды
+Дистрибутивы: Ubuntu LTS / Debian / Fedora
+Оболочки и утилиты: bash/zsh, tmux, htop/btop, jq, curl, git
+Управление Python-окружениями: uv или poetry (альт.: conda/mamba), pipx
+* Контейнеризация и кластер
+Контейнеры: Docker или Podman, docker-compose
+K8s: Kubernetes (локально: k3s / MicroK8s), Helm, Kustomize
+Виртуализация/оркестрация: Proxmox, QEMU/KVM
+Безопасность образов: Trivy, Skopeo, Buildah
+*  Ядро AI/ML
+DL-фреймворки: PyTorch (основной), JAX / TensorFlow (по необходимости)
+Библиотеки: Hugging Face Transformers/Diffusers, sentence-transformers
+* Оркестрация агентов: LangChain, LlamaIndex, LangGraph (мультиагенты)
+* Локальный LLM и оптимизация инференса
+Сервер/рантаймы: vLLM, Ollama, llama.cpp
+Оптимизация: ONNX Runtime, TensorRT / Torch-TensorRT, bitsandbytes (квант.)
+Продвинутый сервинг: NVIDIA Triton Inference Server
+* Данные, поиск и RAG
+Векторные БД: FAISS (встраиваемо), Qdrant, Milvus, Weaviate
+Полнотекстовый поиск: OpenSearch/Elasticsearch
+Лёгкие хранилища: SQLite, кэш: Redis
+* Сообщения и стриминг (для мультиагентов и событий)
+Брокеры: Kafka, RabbitMQ, NATS, Redis Streams
+* Сервинг и API
+Веб/гейты: FastAPI (+ uvicorn/gunicorn), gRPC
+Реверс-прокси: NGINX, Traefik (альт.: Caddy)
+Быстрый UI прототипов: Gradio, Streamlit
+* Наблюдаемость и качество
+Метрики: Prometheus + Grafana, node-exporter, NVIDIA DCGM exporter
+Логи: Loki или ELK (Elasticsearch + Logstash + Kibana)
+Трейсинг/OTel: OpenTelemetry, Jaeger/Tempo
+Тесты/качество кода: pytest, pytest-benchmark, ruff/flake8, black, mypy, pre-commit
+Сети: WireGuard, Tailscale / ZeroTier
+* Хранилища и файлы
+БД: PostgreSQL (основная), Redis (кэш/очереди)
+Объектное S3-хранилище: MinIO (локально/он-прем)
+Артефакты/модели/данные: DVC, MLflow (трекинг + модельный реестр)
+*  Голос и мультимодальность (для ассистентов)
+STT: Whisper (локально), Vosk (офлайн), VAD: Silero VAD
+TTS: Piper, Coqui TTS (альт.: NVIDIA Riva)
+Камера/аудио: GStreamer, FFmpeg
+IaC: Ansible, Terraform, Packer
+* GPU/железо
+Драйверы/SDK: CUDA + cuDNN (NVIDIA) или ROCm (AMD)
+Контейнеры с GPU: nvidia-container-toolkit
+
+Минимальный костяк (быстрый старт):
+Docker/Podman + Python (uv/poetry) + PyTorch + HF Transformers + LangChain + 
++vLLM или Ollama + FAISS + FastAPI + Prometheus/Grafana + Whisper + Piper.
+Остальное добавляйте по мере взросления проекта (ETL, K8s, GitOps, Vault/Keycloak).
+
+
+
+2. Фреймворки и платформы:
 * [Ollama - для запуска llm](https://github.com/ollama/ollama/tree/main/docs)
 * [LangChain]()
 * [LangGraph]()
@@ -116,14 +178,14 @@ mini/micro infrastructure(client–server arch): app for data processing
 * [Gradio - быстрые GUI для AI]()
 * [Streamlit - быстрые GUI для AI]()
 
-2. free models: 
+3. free models: 
 * [llama.cpp - для запуска llm]()
 * [LLaMA, CodeLlama]()
 * [Llava]()
 * [DeepSeek, DeepseekCoder]()
 * [Claude (Anthropic)]()
 
-3. OpenAI API:
+4. OpenAI API:
 * [The OpenAI Cookbook open-source examples and guides for building with the OpenAI API](https://cookbook.openai.com/)
 * [Experiment with ChatGPT](https://chatgpt.com/)
 * [Stay updated with the OpenAI Blog](https://openai.com/news/)
