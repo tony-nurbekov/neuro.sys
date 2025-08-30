@@ -131,32 +131,35 @@ mini/micro infrastructure(client–server arch): app for data processing
 
 ### Tools for infrastructure ai-systems
 
-> Docker, VirtualBox, VSCode, Python, PyTorch, Github Copilot, HuggingFace + LangChain + Whisper.
-Остальное можно подключать по мере роста проекта.
-
-* База системы и среды
+- ChromaDB - локальная база
+- CrewAI
+- MSTY
+- OpenWebUI
+- Github Copilot
+- HuggingFace
+- База системы и среды
 Дистрибутивы: Ubuntu LTS / Debian / Fedora
-* Контейнеризация и кластер
+- Контейнеризация и кластер
 Контейнеры: Docker или Podman, docker-compose
 K8s: Kubernetes (локально: k3s / MicroK8s), Helm, Kustomize
 Виртуализация/оркестрация: Proxmox, QEMU/KVM
 Безопасность образов: Trivy, Skopeo, Buildah
-*  Ядро AI/ML
+-  Ядро AI/ML
 DL-фреймворки: PyTorch (основной), JAX / TensorFlow (по необходимости)
 Библиотеки: Hugging Face Transformers/Diffusers, sentence-transformers
-* Оркестрация агентов: LangChain, LlamaIndex, LangGraph (мультиагенты)
-* Локальный LLM и оптимизация инференса
+- Оркестрация агентов: LangChain, LlamaIndex, LangGraph (мультиагенты)
+- Локальный LLM и оптимизация инференса
 Сервер/рантаймы: vLLM, Ollama, llama.cpp
 Оптимизация: ONNX Runtime, TensorRT / Torch-TensorRT, bitsandbytes (квант.)
 Продвинутый сервинг: NVIDIA Triton Inference Server
-* Данные, поиск и RAG
+- Данные, поиск и RAG
 Векторные БД: FAISS (встраиваемо), Qdrant, Milvus, Weaviate
 Полнотекстовый поиск: OpenSearch/Elasticsearch
 Лёгкие хранилища: SQLite, кэш: Redis
-* Сообщения и стриминг (для мультиагентов и событий)
+- Сообщения и стриминг (для мультиагентов и событий)
 Брокеры: Kafka, RabbitMQ, NATS, Redis Streams
-* Сервинг и API
-Веб/гейты: FastAPI (+ uvicorn/gunicorn), gRPC
+- Сервинг и API
+Веб/гейты: FastAPI (+ uvicorn/gunicorn), gRPC, Flask
 Реверс-прокси: NGINX, Traefik (альт.: Caddy)
 Быстрый UI прототипов: Gradio, Streamlit
 * Наблюдаемость и качество
@@ -297,7 +300,7 @@ sudo apt install clang llvm lld
 * [Virtual Private Server (VPS) is a virtual machine for virtualization]()
 
 
-### Containers - изоляция приложений + совместное ядро с основной системой
+### Containers - изоляция приложений, сервис + совместное ядро с основной системой
 
 * [docker-github](https://github.com/docker) - Docker помогает разработчикам воплощать свои идеи в жизнь
 * [Manuals/Docker Engine](https://docs.docker.com/engine/) - Official Documentation Docker Engine
@@ -314,7 +317,6 @@ Repo for download Docker/Docker Compose
 ---
 * [Podman](https://podman.io/)
 * [LXC (Linux Containers) ](https://linuxcontainers.org/)
-
 
 
 
@@ -1153,7 +1155,6 @@ TV Samsung/Xiaomi 2/4K 109cm
 * Матрицы
 * Поиск с возвратом
 ...
-
 
 
 
