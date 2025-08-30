@@ -1,13 +1,38 @@
-### awesome computing-systems
-**********************************************************
-  Компьютер – это машина, обрабатывающая данные в соответствии с набором инструкций, 
-называемым компьютерной программой.
+# awesome computing, artificial systems
+
+## Contents
+
+- [The Important Information/Data Source](#the-important-information-data-source)
+- [Computing](#computing)
+- [awesome-systems-of-github](#awesome-systems-of-github)
+- [awesome-youtube](#awesome-youtube) 
+- [awesome-cheatsheet](#awesome-cheatsheet) 
+- [awesome-artificial-intelligence-systems](#awesome-artificial-intelligence-systems-llm---large-language-model-machine-learning) 
+- [ai-function](#ai-function) 
+- [tools for infrastructure ai-systems](#tools-for-infrastructure-ai-systems) 
+- [unix-terminal-console](#unix-terminal-console---command-line-shells) 
+- [the-gnu-project](#the-gnu-project) 
+- [irtualization-hypervisors](#virtualization-hypervisors---отдельная-ос-изоляция) 
+- [containers---изоляция-приложений](#containers---изоляция-приложений--совместное-ядро-с-основной-системой)
+- [the-art-of-programming](#the-art-of-programming-данные-и-методыфункция-их-обработкиинструкцияданные-donald-knuth)
+- [information-security](#information-security-offensive-security)
+- [networking-software](#networking-software-hardware-model-osi-model-tcpip)
+- [database](#database)
+- [system software for x86_64](#system-software-for-x86_64)
+- [computing-machine](#computing-machine)
+- [embeded-system-firmware](#embeded-system-firmware)
+- [video-survellance](#video-survellance)
+- [repair-computer](#repair-computer)
+- [messengers-social-networks](#messengers-social-networks)
+- [system-engineering-toolkit](#system-engineering-toolkit)
+- [youtubealek-os---computer-science-roadmap](#youtubealek-os---computer-science-roadmap)
 
 
 
 
-### The Important Information/Data Source 
-**********************************************************
+
+## The Important Information, Data Source 
+
 * [Wikipedia:Contents/Portals](https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals)
 * [wiki/Category:All_portals](https://en.wikipedia.org/wiki/Category:All_portals)
 * [Wikipedia:Featured_articles](https://en.wikipedia.org/wiki/Wikipedia:Featured_articles)
@@ -20,16 +45,29 @@
 
 
 
-### awesome.systems of github
-**********************************************************
+
+
+### Computing
+
+Компьютер – это машина, обрабатывающая данные в соответствии с набором инструкций, 
+называемым компьютерной программой.
+
+
+
+
+
+
+### awesome systems of github
+
 * [awesome-github Lists](https://github.com/topics/awesome) - An awesome list is a list of awesome things curated by the community.
 * [awesome-interesting](https://github.com/sindresorhus/awesome) - Awesome lists about all kinds of interesting topics
 
 
 
 ### Awesome YouTube
-********************************************************************
-> [YouTube/@Диджитализируй!](https://youtube.com/@t0digital) - Хардкорная веб-разработка — мой авторский курс https://course.to.digital/
+
+* [> YouTube/@Диджитализируй!](https://youtube.com/@t0digital) - Хардкорная веб-разработка 
+* [Диджитализируй авторский курс ](https://course.to.digital/) — мой авторский курс
 * [site/digitalize](https://digitalize.team) - Диджитализируй! делает сложные информационные системы для бизнеса
 * [site/digitalize](https://salesbeat.pro) - модуль доставки для интернет-магазинов, каким он должен быть
 * [site/to.digital](https://to.digital/) - Сайт книжный клуб, в котором мы читаем и прорабатываем хорошие ИТ книги
@@ -41,8 +79,8 @@
 
 
 
-### awesome.cheatsheet
-**********************************************************
+### awesome cheatsheet
+
 * [curl cheat.sh ](https://github.com/chubin/cheat.sh) - The only cheat sheet you need
 * [tildr-pages](https://github.com/tldr-pages/tldr) - The Best cheat sheet
 * [ascii table](https://asciiart.website/) - in terminal
@@ -55,8 +93,8 @@
 
 
 
-### awesome Artificial intelligence systems, llm, machine learning UnixAI: 
-**********************************************************
+### awesome artificial intelligence systems, LLM - Large language model, machine learning: 
+
   Искусственный интеллект — наука, стоящая на стыке информатики, кибернетики, нейробиологии и психологии, 
 изучающая возможность вычислительных машин и других искусственных устройств брать на себя отдельные функции 
 интеллекта человека. ИИ связан с такими направлениями современной науки, как робототехника и когнитивная психология. 
@@ -75,8 +113,8 @@
 
 
 
-#### AI, ML, LLM :Large language model function 
-**********************************************************
+### AI function 
+
 Теперь можно использовать LLM для:
 mini/micro infrastructure(client–server arch): app for data processing
 * Работа с файлами: Чтение, запись, сжатие, шифрование
@@ -91,17 +129,8 @@ mini/micro infrastructure(client–server arch): app for data processing
 
 
 
-### AI, ML:machine learning, LLM:Large language model for processing: spirit, neuro.systems
-**********************************************************
-* [awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide.git) - Единое хранилище обновлений исследований генеративного ИИ
-* [awesome-generative-ai-data-scientist](https://github.com/business-science/awesome-generative-ai-data-scientist.git) -
-* [awesome-chatgpt](https://github.com/sindresorhus/awesome-chatgpt.git) -  Awesome list for ChatGPT — an artificial intelligence chatbot developed by OpenAI
-* [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai.git) - A curated list of modern Generative Artificial Intelligence projects and services
-* [awesome Generative AI](https://github.com/filipecalegario/awesome-generative-ai.git) - Подборка инструментов, работ, моделей и ссылок на генеративный ИИ
+### Tools for infrastructure ai-systems
 
-
-
-1. Структурированный список инструментов для инфраструктуры AI-систем, AI-агентов на GNU/Linux 
 > Docker, VirtualBox, VSCode, Python, PyTorch, Github Copilot, HuggingFace + LangChain + Whisper.
 Остальное можно подключать по мере роста проекта.
 
@@ -184,11 +213,16 @@ Docker/Podman + Python (uv/poetry) + PyTorch + HF Transformers + LangChain +
 * [x.AI (Grok)](https://x.ai/grok) - для запуска llm
 * [Google Gemini](https://gemini.google.com/app?hl=ru) - для запуска llm
 
+* [awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide.git) - Единое хранилище обновлений исследований генеративного ИИ
+* [awesome-generative-ai-data-scientist](https://github.com/business-science/awesome-generative-ai-data-scientist.git) -
+* [awesome-chatgpt](https://github.com/sindresorhus/awesome-chatgpt.git) -  Awesome list for ChatGPT — an artificial intelligence chatbot developed by OpenAI
+* [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai.git) - A curated list of modern Generative Artificial Intelligence projects and services
+* [awesome Generative AI](https://github.com/filipecalegario/awesome-generative-ai.git) - Подборка инструментов, работ, моделей и ссылок на генеративный ИИ
 
 
 
-### Unix-terminal/Console - Command-line shells and net
-**********************************************************
+### Unix-terminal, Console - Command line shells
+
 * [bash / zsh / sh]() – основные оболочки, скрипты, автодополнение.
 * [tmux / screen]() – мультисессии, работа по SSH без обрыва.
 * [ssh]() – удалённое подключение.
@@ -205,7 +239,7 @@ Docker/Podman + Python (uv/poetry) + PyTorch + HF Transformers + LangChain +
 
 
 ### The GNU Project
-**********************************************************
+
 Проект GNU настоятельно призывает сообщество общаться дружелюбно, 
 приветливо и по-доброму. См. Руководство по добрым коммуникациям GNU.
 GNU Operating System
@@ -250,8 +284,8 @@ sudo apt install clang llvm lld
 
 
 
-### Virtualization(Hypervisors) - отдельная ОС + изоляция
-**********************************************************
+### Virtualization (Hypervisors) - отдельная ОС, изоляция
+
 > https://www.digitalocean.com/ - VPS Hosting DigitalOcean - упростить облако и ИИ, 
 чтобы разработчики могли больше времени уделять созданию ПО. (sorax/youtube@sorax recommended)
 * [VirtualBox](https://www.virtualbox.org/)
@@ -264,7 +298,8 @@ sudo apt install clang llvm lld
 
 
 ### Containers - изоляция приложений + совместное ядро с основной системой
-**********************************************************
+
+* [docker-github](https://github.com/docker) - Docker помогает разработчикам воплощать свои идеи в жизнь
 * [Manuals/Docker Engine](https://docs.docker.com/engine/) - Official Documentation Docker Engine
 * [Install Docker Engine](https://docs.docker.com/engine/install/ubuntu/) - Install Docker Engine on Ubuntu
 * [download Docker Engine](https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/) - 
@@ -283,8 +318,8 @@ Repo for download Docker/Docker Compose
 
 
 
-### The Art of Programming: Данные и Методы(Функция) их обработки(инструкция/данные) (Donald Knuth):
-**********************************************************  
+### The Art of Programming: Данные и Методы(Функция) их обработки(инструкция/данные):
+
 Информационные процессы, Алгоритмы(обработка)/Структуры данных(хранение):
 * Данные — информация пригодный для сбор, хранение, обработки и передачи.
 Одни и те же данные могут быть закодированы различным образом и иметь различный объём.
@@ -303,7 +338,9 @@ https://github.com/TheAlgorithms
 Open Source resource for learning 
 Data Structures & Algorithms = Programs
 and their implementation in any Programming Language...
-**********************************************************
+
+---
+
 Создание эФФективного программного обеспечения 
 зависит от двух ключевых аспектов:
 АлгоритмЫ – ЧёткиЕ, ЛогичныЕ Последовательности ДейСТвий, 
@@ -381,6 +418,13 @@ n = int(input("N: ")) summa = 0 for i in range(1, n+1): summa += i print(summa)
 * [JetBrains IDE: IntelliJ IDEA]() 
 * [VSCode](https://code.visualstudio.com/)
 * [LibreOffice'  MS Office]()
+* Редактор:  Neovim + markdown-preview / Obsidian
+* Конвертер: Pandoc
+* Генератор: mdBook или MkDocs
+* PDF/HTML:  Pandoc или mdpdf
+* Graph:[ 'GIMP' 'Canva' 'Adobe Photoshop/Acrobat/AdobeScan' 'CorelDraw']
+* Audio/Video: [ 'OpenShot' 'Shotcut' 'CapCut' 'OBS Studio' 'Adobe Premiere' 
+'Blender3D' 'Pinta' 'VLC' 'K-Lite Codec Pack' 'FIGMA']  Zoom
 ----------
 2. Compiler/decompile, interpreter/asembler/dizasembler - elf/apk:
 * [Python Interpreter](https://docs.python.org/3/index.html)
@@ -410,22 +454,10 @@ n = int(input("N: ")) summa = 0 for i in range(1, n+1): summa += i print(summa)
 
 
 
-* Редактор:     Neovim + markdown-preview / Obsidian
-* Линтер:       markdownlint
-* Конвертер:    Pandoc
-* Генератор:    mdBook или MkDocs
-* PDF/HTML:     Pandoc или mdpdf
-* Graph:[ 'GIMP' 'Canva' 'Adobe Photoshop/Acrobat/AdobeScan' 'CorelDraw']
-* Audio/Video: [ 'OpenShot' 'Shotcut' 'CapCut' 'OBS Studio' 'Adobe Premiere' 
-'Blender3D' 'Pinta' 'VLC' 'K-Lite Codec Pack' 'FIGMA']  Zoom
 
 
+### Information Security, Offensive Security
 
-
-
-
-### Information Security/ Offensive Security/ 
-**********************************************************
 Информационная безопасность - это практика защиты информации 
 путем снижения информационных рисков.
 Обычно это предполагает предотвращение или снижение вероятности 
@@ -450,7 +482,7 @@ https://www.youtube.com/live/QUwLjylXRq0?si=gC1Za2cWagF2qPEi
 + Kali Linux (как платформа) + Metasploit (эксплойты) 
 + Burp Suite (веб-безопасность). 
 + Nmap, Wireshark, netdiscover
--------------------------------------------------
+-----
 Эриксон Д.
 Хакинг: искусство эксплойта. 2-е изд. Питер, 2018.
 Каждый программист по сути своей - хакер. 
@@ -500,7 +532,7 @@ Shellcode / Rootkits	C, Assembly
 Автоматизация и утилиты	Python, Go
 Обходы EDR/AV	C, ASM, obfuscation, шифрование
 kali/blackarch tools
-**********************************************************
+
 
 * [awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking.git) - A collection of various awesome lists for hackers, pentesters and security researchers
 * [Black Arch GNU/Linux](https://blackarch.org/tools)
@@ -565,16 +597,16 @@ Nessus (not included by default) – Professional vulnerability scanner.
 SQLmap – Automated SQL injection tool.
 
 5. Wireless Attacks
-* [Aircrack-ng – Suite for WEP/WPA cracking](https://www.aircrack-ng.org/doku.php?id=faq#what_is_the_best_wireless_card_to_buy)
-* [Wifite]() - Automated wireless attack tool.
-* [Reaver]() - WPS brute-force attack tool.
-* [Evil Twin]() - это метод атаки, при котором создаётся поддельная точка доступа Wi-Fi
-* [hostapd, dnsmasq]() - Wireless access point(AP) of Kali Linux.
+- [Aircrack-ng – Suite for WEP/WPA cracking](https://www.aircrack-ng.org/doku.php?id=faq#what_is_the_best_wireless_card_to_buy)
+- [Wifite]() - Automated wireless attack tool.
+- [Reaver]() - WPS brute-force attack tool.
+- [Evil Twin]() - это метод атаки, при котором создаётся поддельная точка доступа Wi-Fi
+- [hostapd, dnsmasq]() - Wireless access point(AP) of Kali Linux.
 
 7. Sniffing & Spoofing
-* [Ettercap]() - Man-in-the-middle attack tool.
-* [Bettercap]() - MITM attack, sniffing, and traffic manipulation.
-* [Arpspoof]() - ARP poisoning tool.
+- [Ettercap]() - Man-in-the-middle attack tool.
+- [Bettercap]() - MITM attack, sniffing, and traffic manipulation.
+- [Arpspoof]() - ARP poisoning tool.
 
 9. Сетевые инструменты
 OpenVPN / WireGuard — настройка туннелей и VPN
@@ -605,10 +637,10 @@ Strace, Ltrace – анализ системных вызовов.
 - ettercap / arpspoof: ARP-spoofing и MITM
 
 13. youtube zsecurity 100 videos:  
-* [youtube/@kalisploit7368](https://www.youtube.com/@kalisploit7368)
-* [youtube/@elitehack5185](https://youtube.com/@elitehack5185?feature=shared)
-* [youtube/@seccuritytesting](https://youtube.com/@seccuritytesting?si=jMgJJn0a37vZO43h )
-* [White2Hack Storage](https://w2h.tech/)
+- [youtube/@kalisploit7368](https://www.youtube.com/@kalisploit7368)
+- [youtube/@elitehack5185](https://youtube.com/@elitehack5185?feature=shared)
+- [youtube/@seccuritytesting](https://youtube.com/@seccuritytesting?si=jMgJJn0a37vZO43h )
+- [White2Hack Storage](https://w2h.tech/)
 
 
 
@@ -617,10 +649,9 @@ Strace, Ltrace – анализ системных вызовов.
 
 
 
-### networking software/hardware  (model OSI, model TCP/IP) 
-********************************************************** 
-#Перенаправление порта(Port forwarding) ngrok, iptables
+### networking software, hardware (model OSI, model TCP/IP) 
 
+Перенаправление порта(Port forwarding) ngrok, iptables
 Переадресация портов облегчает подключение удаленных компьютеров, например, 
 интернет -хостов, к определенному компьютеру или службе в локальной сети (LAN).
 
@@ -645,7 +676,8 @@ Cетевой:       IP, ICMP, Router
 Канальный:     Ethernet, Switch, ARP, WiFi, DHCP
 --------------------------------------------
 Физический:    витая пара, радиосвязь, оптоволокно
-**********************************************************
+
+
 
 2. activ and passive hardware network tools  
 * net controller 
@@ -657,7 +689,7 @@ Cетевой:       IP, ICMP, Router
 * Fiber mediaConverter
 * RouterBoard/Маршрутизатор mikrotik 
 * Brand network hardware: TP-Link/D-Link/hikvision/HUAWEI/Ubiquiti
---------------------------------------------
+-------
 passive: 
 * UTP Сat5e
 * коннектор RG45
@@ -666,7 +698,7 @@ passive:
 * GPON 
 * IP telephony
 Mobile networking GSM/UMTS/LTE | радиорелейные сети, электротехника и радиосвязь}
-****************************************************************************************
+-------
 
 Диагностические инструменты для проверки сетевых интерфейсов 
 и конфигурации адресов:
@@ -692,7 +724,7 @@ Mobile networking GSM/UMTS/LTE | радиорелейные сети, элект
 
 
 ### Database
-**********************************************************
+
 * [PostgreSQL / SQLite – структурированные данные]()
 * [FastAPI/Django]()
 * [REST API]() 
@@ -706,8 +738,8 @@ Mobile networking GSM/UMTS/LTE | радиорелейные сети, элект
 
 
 
-### system software: operating.systems for x86_64
-**********************************************************
+### system software for x86_64
+
 Системное ПО - управляющее аппаратными ресурсами компьютера.
 --------------------------------------------
 * Пользовательский режим:
@@ -726,7 +758,7 @@ API Низкого уровня(WindowsAPI, Linux syscalls)
 (ядро линукс  +  стандартная библиотека C)
 Структура языков программирование,  
 Java/С/С++(ядро языка (синтаксис) +  стандартная библиотека)
-**********************************************************
+
 * Ubuntu Desktop / Debian / Fedora
 * [awesome-linux](https://github.com/inputsh/awesome-linux.git) - 🐧 A list of awesome projects and resources that make Linux even more awesome. 
 * [Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software.git) - A list of awesome Linux softwares
@@ -745,7 +777,7 @@ Java/С/С++(ядро языка (синтаксис) +  стандартная 
 * [source.android.com](https://source.android.com/docs/security)
 * [awesome-windows](https://github.com/0PandaDEV/awesome-windows.git) - An awesome & curated list of tools and apps for Windows 10/11.
 * [snapcraft](https://snapcraft.io/) - The app store for Linux
-**********************************************************
+
 "Best practice" for Data storage/Data backup:: 
 USB/HDD/SSD/Google/Dropbox/Yandex Cloud:
 /dev/sdX1 — EFI (512 MB) //Install Загрузчик GRUB2 на диске 
@@ -760,7 +792,7 @@ USB/HDD/SSD/Google/Dropbox/Yandex Cloud:
 
 
 ### computing machine
-****************************************************************************************
+
   «Электронно-Вычислительная Машина - Комплекс аппаратных и программных средств, 
 которое вычисляет, выполняет высокоскоростные арифметичесские вычисления, 
 логические операции или которые хранят и обрабатывают, передает информацию»
@@ -801,7 +833,7 @@ Architecture ЭВМ   = Аппаратное обеспечение/железо
 * Уровень архитектуры набора команд, трансляция (ассемблер);
 * Микроархитектурный уровень;
 * Цифровой логический уровень - аппаратное обеспечение машины(вентили)     
--------------------------------------------------------------------------
+-------
 
 Учиться смотреть на код "глазами процессора и памяти" — 
 это шаг к глубокому пониманию, как работает Си, 
@@ -810,7 +842,7 @@ Architecture ЭВМ   = Аппаратное обеспечение/железо
 (UEFI - это встроенное программное обеспечение, которое управляет клавиатурой, 
 монитором, диском и другими аппаратными устройствами и предоставляет программный 
 интерфейс, помогающий ОС управлять аппаратными устройствами.)
-**********************************************************
+
 
 001. neofetch - GNU/Linux tools for system info
 montana@HP-Notebook:/data/neuron.ink$ neofetch --off
@@ -854,8 +886,8 @@ Memory: 4834MiB / 7271MiB
 
 
 
-### embeded system / firmware
-**********************************************************
+### embeded system, firmware
+
   Встроенные системы предназначены для выполнения определенной задачи, 
 в отличие от компьютеров общего назначения, предназначенных для 
 выполнения нескольких задач. 
@@ -882,7 +914,7 @@ Memory: 4834MiB / 7271MiB
 
 
 ### video survellance
-**********************************************************
+
 * Видеонаблюдение (IPcamera/IPTV/IPtelephony; hikvision/hiwatch)
 Видеорегистратор HiWatch DS-N332/4 + Network switch()
 Стандарты YouTube
@@ -903,7 +935,7 @@ Memory: 4834MiB / 7271MiB
 
 
 ### Repair computer
-**********************************************************
+
 * [@Hetman-Software](https://www.youtube.com/@Hetman-Software) - Восстановление данных и ремонт ПК
 * [](https://hetmanrecovery.com/ru/support.htm) - Гайд по ремонту и восстановлении удаленных данных
 * [remontka.pro](https://remontka.pro/) - ремонт компьютеров, Android, iPhone
@@ -913,7 +945,7 @@ Memory: 4834MiB / 7271MiB
 
 
 ### Messengers, Social Networks
-**********************************************************
+
 * [pinterest](https://www.pinterest.com/ideas/)
 * [reddit](https://www.reddit.com/)
 * [x.com](http://x.com/)
@@ -959,7 +991,7 @@ Memory: 4834MiB / 7271MiB
 
 
 ### system engineering toolkit
-**********************************************************
+
 Xiaomi, Samsung, D-link, TpLink, Mikrotik, Asus, HP, LG
 * notebook/miniPC/tablet/smartphone/keyboard
 * Док-станция Xiaomi XMTIO01YM - Легко расширяйте порты и повышайте эффективность
@@ -969,7 +1001,7 @@ Xiaomi, Samsung, D-link, TpLink, Mikrotik, Asus, HP, LG
 * программируемые микрокомпьютеры, печатная плата RaspberryPi, Arduino
 * display for text/graphic data processing: micro LED, OLED, TFT
 * Электронная книга (устройство, e-book reader) OnyxBoox
------------------------------------------------------------------
+--------------------------
 * Мультиметр 
 * Паяльник электрический, припой и сосновая канифоль
 * Силиконовый коврик для пайки
@@ -1039,7 +1071,7 @@ TV Samsung/Xiaomi 2/4K 109cm
 
 
 ### youtube/ALEK OS - Computer Science Roadmap
-**********************************************************
+
 1. Теория
 1.1 CS. База
 * Системы счисления

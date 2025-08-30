@@ -67,7 +67,7 @@ Ostin, LC Waikiki, TerraPro
 SuperStep of shymkentPlaza
 --------------------------------------------
 Ул Ерназарова, 9 /​Самал-3 м-н
-
+112mkr/Улица Эссениязова, 38 
 
 
 
@@ -1309,5 +1309,7 @@ pro эффективное использование  информационн�
 🧬🔬Program Ideas
 AI-ASSISTANT, AI-AGENT for processing - > spirit.systems, neuro.systems directories 
 youtube/@Диджитализируй
+
+
 
 
