@@ -1,8 +1,4 @@
-
-# awesome Artificial intelligence
-**********************************************************
-
-### awesome computing
+### awesome computing-systems
 **********************************************************
   Компьютер – это машина, обрабатывающая данные в соответствии с набором инструкций, 
 называемым компьютерной программой.
@@ -28,8 +24,6 @@
 **********************************************************
 * [awesome-github Lists](https://github.com/topics/awesome) - An awesome list is a list of awesome things curated by the community.
 * [awesome-interesting](https://github.com/sindresorhus/awesome) - Awesome lists about all kinds of interesting topics
-----------
-* []() -
 
 
 
@@ -113,8 +107,6 @@ mini/micro infrastructure(client–server arch): app for data processing
 
 * База системы и среды
 Дистрибутивы: Ubuntu LTS / Debian / Fedora
-Оболочки и утилиты: bash/zsh, tmux, htop/btop, jq, curl, git
-Управление Python-окружениями: uv или poetry (альт.: conda/mamba), pipx
 * Контейнеризация и кластер
 Контейнеры: Docker или Podman, docker-compose
 K8s: Kubernetes (локально: k3s / MicroK8s), Helm, Kustomize
@@ -197,15 +189,17 @@ Docker/Podman + Python (uv/poetry) + PyTorch + HF Transformers + LangChain +
 
 ### Unix-terminal/Console - Command-line shells and net
 **********************************************************
-- Bash/Zsh/Fishmux, screen, ssh, terminator: Скрипты, автоматизация, конфиги
-- htop/nmon: Мониторинг системы
-- tmux/screen: Множественные сессии, удалённая работа
-- ssh/rsync: Подключение, копирование
-- curl/wget: Быстрые HTTP-запросы
-* Netcat/nc/Traceroute
-* Ping/ifconfig/ip
-* http / curl / wget / ip
-* ssh / vnc / anydesk / ifconfig
+* [bash / zsh / sh]() – основные оболочки, скрипты, автодополнение.
+* [tmux / screen]() – мультисессии, работа по SSH без обрыва.
+* [ssh]() – удалённое подключение.
+* [rsync / scp]() – копирование файлов по сети.
+* [curl]() – HTTP-запросы, скачивание.
+* [wget]() – HTTP-запросы, скачивание.
+* [ping / traceroute]() – диагностика сети и маршрута.
+* [ip / ifconfig]() – управление сетевыми интерфейсами.
+* [netcat (nc)]() – проверка портов, простые TCP/UDP соединения.
+* [htop]() – мониторинг процессов и ресурсов.
+* [nmon]() – расширенный мониторинг системы (CPU, RAM, сеть, диски).
 
 
 
@@ -243,6 +237,16 @@ Supported by the Free Software Foundation
 * [ghidra, IDA Free, Binary Ninja	Графические инструменты для анализа бинарников.]()
 
 
+Install on Linux: 
+```
+sudo apt install build-essential gdb make binutils \
+    autoconf automake libtool pkg-config \
+    gcc g++ gfortran \
+    strace ltrace
+```
+```
+sudo apt install clang llvm lld
+```
 
 
 
@@ -261,34 +265,18 @@ Supported by the Free Software Foundation
 
 ### Containers - изоляция приложений + совместное ядро с основной системой
 **********************************************************
-- Базовые понятия Docker
-
-В программной инженерии контейнеризация — это виртуализация на уровне операционной системы 
-или виртуализация на уровне приложений с использованием нескольких сетевых ресурсов, 
-благодаря чему программные приложения могут работать в изолированных пользовательских пространствах, 
-называемых контейнерами, в любой облачной или необлачной среде, независимо от типа или поставщика.
-
-Создаёт контейнеры, которые используют ядро хостовой ОС, но изолируют 
-приложения и их зависимости. Контейнеры легче и быстрее, чем ВМ, 
-потому что не нужно запускать целую ОС.
-
-Термин Определение Аналогия
-
-Image (образ) Неподвижный слепок окружения и приложения «Фото комнаты до заселения»
-Container (контейнер) Запущенный экземпляр образа «Комната, где живут»
-Dockerfile Шаги для сборки образа «Рецепт ремонта»
-Registry Хранилище образов (Docker Hub) «Склад готовых комнат»
-Volume Внешнее постоянное хранилище данных «Чемодан, который заберёшь»
-Network Вирт. сети между контейнерами «Проводка и маршруты в доме»
-
-* [awesome-docker](https://github.com/veggiemonk/awesome-docker.git)A curated list of Docker resources and projects
-* [awesome-compose](https://github.com/docker/awesome-compose.git) - Awesome Docker Compose samples
-* [Repo for download Docker/Docker Compose](https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/)
-* [Docker Model Runner](https://docs.docker.com/ai/model-runner/)
+* [Manuals/Docker Engine](https://docs.docker.com/engine/) - Official Documentation Docker Engine
+* [Install Docker Engine](https://docs.docker.com/engine/install/ubuntu/) - Install Docker Engine on Ubuntu
+* [download Docker Engine](https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/) - 
+Repo for download Docker/Docker Compose
 * [Docker Hub](https://hub.docker.com/)
-* [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+* [Docker Model Runner (DMR)](https://docs.docker.com/ai/model-runner/) - упрощает управление, запуск и развертывание 
+больших языковых моделей (LLM) и других моделей ИИ непосредственно из Docker Hub или любого реестра, совместимого с OCI.
+---
+* [awesome-docker](https://github.com/veggiemonk/awesome-docker.git) - A curated list of Docker resources and projects
+* [awesome-compose](https://github.com/docker/awesome-compose.git) - Awesome Docker Compose samples
 * [docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet.git) - Docker Cheat Sheet
-* [downloads docker of linux](https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/)
+---
 * [Podman](https://podman.io/)
 * [LXC (Linux Containers) ](https://linuxcontainers.org/)
 
@@ -739,6 +727,7 @@ API Низкого уровня(WindowsAPI, Linux syscalls)
 Структура языков программирование,  
 Java/С/С++(ядро языка (синтаксис) +  стандартная библиотека)
 **********************************************************
+* Ubuntu Desktop / Debian / Fedora
 * [awesome-linux](https://github.com/inputsh/awesome-linux.git) - 🐧 A list of awesome projects and resources that make Linux even more awesome. 
 * [Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software.git) - A list of awesome Linux softwares
 * [awesome-the-secret-book](https://github.com/T-450/the-book-of-secret-knowledge) - A curated list of, docs, cheatsheet, cli/web-tools.
@@ -755,6 +744,7 @@ Java/С/С++(ядро языка (синтаксис) +  стандартная 
 (More than 3500 open source tools and 2300 posts&videos)
 * [source.android.com](https://source.android.com/docs/security)
 * [awesome-windows](https://github.com/0PandaDEV/awesome-windows.git) - An awesome & curated list of tools and apps for Windows 10/11.
+* [snapcraft](https://snapcraft.io/) - The app store for Linux
 **********************************************************
 "Best practice" for Data storage/Data backup:: 
 USB/HDD/SSD/Google/Dropbox/Yandex Cloud:
