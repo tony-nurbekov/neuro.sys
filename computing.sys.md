@@ -54,9 +54,6 @@
 
 
 
-
-
-
 ### awesome systems of github
 
 * [awesome-github Lists](https://github.com/topics/awesome) - An awesome list is a list of awesome things curated by the community.
@@ -129,98 +126,79 @@ mini/micro infrastructure(client–server arch): app for data processing
 
 
 
-### Tools for infrastructure ai-systems
+## Stack technology for creating - Software AI-Agent
 
-- ChromaDB - локальная база
-- CrewAI
-- MSTY
-- OpenWebUI
-- Github Copilot
-- HuggingFace
-- База системы и среды
-Дистрибутивы: Ubuntu LTS / Debian / Fedora
-- Контейнеризация и кластер
-Контейнеры: Docker или Podman, docker-compose
-K8s: Kubernetes (локально: k3s / MicroK8s), Helm, Kustomize
-Виртуализация/оркестрация: Proxmox, QEMU/KVM
-Безопасность образов: Trivy, Skopeo, Buildah
--  Ядро AI/ML
-DL-фреймворки: PyTorch (основной), JAX / TensorFlow (по необходимости)
-Библиотеки: Hugging Face Transformers/Diffusers, sentence-transformers
-- Оркестрация агентов: LangChain, LlamaIndex, LangGraph (мультиагенты)
-- Локальный LLM и оптимизация инференса
-Сервер/рантаймы: vLLM, Ollama, llama.cpp
-Оптимизация: ONNX Runtime, TensorRT / Torch-TensorRT, bitsandbytes (квант.)
-Продвинутый сервинг: NVIDIA Triton Inference Server
-- Данные, поиск и RAG
-Векторные БД: FAISS (встраиваемо), Qdrant, Milvus, Weaviate
-Полнотекстовый поиск: OpenSearch/Elasticsearch
-Лёгкие хранилища: SQLite, кэш: Redis
-- Сообщения и стриминг (для мультиагентов и событий)
-Брокеры: Kafka, RabbitMQ, NATS, Redis Streams
-- Сервинг и API
-Веб/гейты: FastAPI (+ uvicorn/gunicorn), gRPC, Flask
-Реверс-прокси: NGINX, Traefik (альт.: Caddy)
-Быстрый UI прототипов: Gradio, Streamlit
-* Наблюдаемость и качество
-Метрики: Prometheus + Grafana, node-exporter, NVIDIA DCGM exporter
-Логи: Loki или ELK (Elasticsearch + Logstash + Kibana)
-Трейсинг/OTel: OpenTelemetry, Jaeger/Tempo
-Тесты/качество кода: pytest, pytest-benchmark, ruff/flake8, black, mypy, pre-commit
-Сети: WireGuard, Tailscale / ZeroTier
-* Хранилища и файлы
-БД: PostgreSQL (основная), Redis (кэш/очереди)
-Объектное S3-хранилище: MinIO (локально/он-прем)
-Артефакты/модели/данные: DVC, MLflow (трекинг + модельный реестр)
-*  Голос и мультимодальность (для ассистентов)
-STT: Whisper (локально), Vosk (офлайн), VAD: Silero VAD
-TTS: Piper, Coqui TTS (альт.: NVIDIA Riva)
-Камера/аудио: GStreamer, FFmpeg
-IaC: Ansible, Terraform, Packer
-* GPU/железо
-Драйверы/SDK: CUDA + cuDNN (NVIDIA) или ROCm (AMD)
-Контейнеры с GPU: nvidia-container-toolkit
+1. База системы
+- [OS: Ubuntu / Debian]() - стабильная платформа.
+- [Docker Engine]() - контейнеризация окружений.
+- [Docker Compose]() - оркестрация сервисов (агент + API + БД).
+- [K8s: Kubernetes]() (локально: k3s / MicroK8s), Helm, Kustomize
+- [QEMU/KVM]() - для эмуляции окружений. 
 
-Минимальный костяк (быстрый старт):
-Docker/Podman + Python (uv/poetry) + PyTorch + HF Transformers + LangChain + 
-+vLLM или Ollama + FAISS + FastAPI + Prometheus/Grafana + Whisper + Piper.
-Остальное добавляйте по мере взросления проекта (ETL, K8s, GitOps, Vault/Keycloak).
+2. Разработка
+- [VS Code / IntelliJ IDEA]() — IDE для работы.
+- [Git/GitHub/GitLab]() — контроль версий.
 
+3. Язык и окружение
+- [Python 3.12+]() - основной язык.
+- [uv (или pip + venv)]() - менеджмент пакетов и виртуальных окружений.
+- [pip-tools]() - управление зависимостями.
 
+4. ML / DL Фреймворки
+- [PyTorch, TensorFlow]() -  (по необходимости)
+- [Hugging Face Transformers/Diffusers, sentence-transformers]() - 
+- [Whisper]() - голос ИИ
 
-2. Фреймворки и платформы:
-* [Ollama - для запуска llm](https://github.com/ollama/ollama/tree/main/docs)
-* [LangChain]()
-* [LangGraph]()
-* [LLaMAIndex]()
-* [AutoGPT]()
-* [AgentGPT]()
-* [OpenWebUI]()
-* [LMStudio]()
-* [Open Interpreter]()
-* [MSTY/Jan - быстрые GUI для AI]()
-* [Gradio - быстрые GUI для AI]()
-* [Streamlit - быстрые GUI для AI]()
+5. Фреймворки и платформы:
+- [Ollama](https://github.com/ollama/ollama/tree/main/docs) - для запуска llm (LLaMA, Mistral и др.).
+- [llama.cpp]() - для запуска llm (LLaMA, Mistral и др.).
+- [Msty Studio]() - предоставляет передовые возможности ИИ прямо у вас под рукой.
+- [LMStudio]() - 
 
-3. free models: 
-* [llama.cpp - для запуска llm]()
-* [LLaMA, CodeLlama]()
-* [Llava]()
-* [DeepSeek, DeepseekCoder]()
-* [Claude (Anthropic)]()
+6. Агентные фреймворки:
+- [LangChain]() - 
+- [LangGraph]() - 
+- [LLaMAIndex]() - 
+- [AutoGPT/AgentGPT]() - 
 
-4. OpenAI API:
-* [The OpenAI Cookbook open-source examples and guides for building with the OpenAI API](https://cookbook.openai.com/)
-* [Experiment with ChatGPT](https://chatgpt.com/)
-* [Stay updated with the OpenAI Blog](https://openai.com/news/)
+7. UI для LLM
+- [OpenWebUI](https://docs.openwebui.com/) -  это расширяемый, размещаемый на собственном сервере интерфейс искусственного интеллекта
+- [Gradio]() - быстрые GUI для AI
+- [Streamlit]() - быстрые GUI для AI
+- [Open Interpreter]()
+
+8. Логика и интеллект
+- [LangChain]() — связка LLM + инструменты.
+- [LlamaIndex]() — работа с внешними данными (документы, базы).
+- [LangGraph]() - мультиагенты
+
+9. API и взаимодействие
+- [FastAPI / REST / WebSocket]() —  интерфейс для агента.
+- [Uvicorn]() — сервер для FastAPI.
+
+10. Хранилища и базы
+- [SQLite]() — лёгкая БД для начала.
+- [PostgreSQL]() — основная БД для продакшена.
+- [ChromaDB]() - локальная база
+
+11. OpenAI API:
+* [The OpenAI Cookbook](https://cookbook.openai.com/) - open-source examples and guides for building with the OpenAI API
+* [ChatGPT](https://chatgpt.com/) - Experiment with ChatGPT
+* [OpenAI Blog](https://openai.com/news/) - Stay updated with the OpenAI Blog
+
+12. Grok:
 * [x.AI (Grok)](https://x.ai/grok) - для запуска llm
 * [Google Gemini](https://gemini.google.com/app?hl=ru) - для запуска llm
 
+13. Ресурсы и коллекции
 * [awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide.git) - Единое хранилище обновлений исследований генеративного ИИ
 * [awesome-generative-ai-data-scientist](https://github.com/business-science/awesome-generative-ai-data-scientist.git) -
 * [awesome-chatgpt](https://github.com/sindresorhus/awesome-chatgpt.git) -  Awesome list for ChatGPT — an artificial intelligence chatbot developed by OpenAI
 * [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai.git) - A curated list of modern Generative Artificial Intelligence projects and services
 * [awesome Generative AI](https://github.com/filipecalegario/awesome-generative-ai.git) - Подборка инструментов, работ, моделей и ссылок на генеративный ИИ
+
+
+
 
 
 
