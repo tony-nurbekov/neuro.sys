@@ -1,0 +1,14 @@
+authors:
+  - name: "Tony Synthetic"
+    email: "tony.synthetic@example.com"
+    github: "Tony"
+    role: "Maintainer"
+    organization: "Unix labs"
+    website: "x.com/tony.synthetic"
+
+  - name: "Contributor Name"
+    email: "contributor@example.com"
+    github: "https://github.com/tony-synthetic"
+    role: "Contributor"
+    organization: null
+    website: null

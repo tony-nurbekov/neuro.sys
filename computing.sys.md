@@ -103,6 +103,83 @@
 ---------
 
 
+
+
+
+
+
+
+
+# Алгоритмы + Структуры данных = Программы
+
+## 📌 Схема запоминания
+
+### 1. Примитивы — строительные кирпичики
+- Числа (int, float)
+- Строки (text)
+- Булевы значения (true / false)
+
+### 2. Контейнеры — способы объединять данные
+- Линейные
+  - Списки / Массивы
+  - Очереди
+  - Стеки
+- Ассоциативные
+  - Словари / Хэш-таблицы
+- Иерархические
+  - Деревья
+  - Графы
+
+### 3. Системные структуры — работа на уровне ОС и сетей
+- Файлы и файловые системы
+- Базы данных
+- Сетевые протоколы
+
+---
+
+###  Алгоритмы — «мозг» работы с данными
+- Поиск
+  - Линейный
+  - Бинарный
+  - По хэшу
+  - По дереву
+- Сортировка
+  - Быстрая (QuickSort)
+  - Пузырьковая
+  - Слиянием
+- Обходы
+  - В глубину (DFS)
+  - В ширину (BFS)
+  - Рекурсивные стратегии
+- Оптимизация
+  - Динамическое программирование
+  - Жадные алгоритмы
+
+---
+
+### Лайфхак для запоминания
+👉 Данные (структуры) = тело, Алгоритмы = мозг  
+Без тела мозг работать не может, без мозга тело бесполезно.
+
+---
+
+### Ассоциации
+- Примитивы = буквы алфавита  
+- Контейнеры = слова и предложения  
+- Системные структуры = библиотека, где всё хранится  
+- Алгоритмы = правила грамматики и логики речи
+
+
+
+
+
+
+
+
+
+
+
+
 ## The Important Information, Data Source 
 
 * [Wikipedia:Contents/Portals](https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals)
@@ -132,7 +209,7 @@
 
 
 
-### Awesome YouTube
+### Youtube
 
 - [youtube/@artsorax](https://www.youtube.com/@artsorax) - Уроки веб-разработки
 - [> YouTube/@Диджитализируй!](https://youtube.com/@t0digital) - Хардкорная веб-разработка 
@@ -144,7 +221,7 @@
 - [youtube/@Alek OS](https://youtube.com/@AlekOS) - Вечное совершенствование себя через осмысливание новой информации
 - [site/@stashchuk](https://stashchuk.com) - development and DevOps courses
 - [youtube/@Bogdan Stashchuk](www.youtube.com/@Bogdan_Stashchuk) - development and DevOps courses
-
+- 
 
 
 
@@ -152,7 +229,6 @@
 
 - [curl cheat.sh ](https://github.com/chubin/cheat.sh) - The only cheat sheet you need
 - [tildr-pages](https://github.com/tldr-pages/tldr) - The Best cheat sheet
-- [ascii table](https://asciiart.website/) - in terminal
 - [data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook.git) - This is a repo with links to everything you'd ever want to learn about data engineering
 - [freeCodeCamp.org/news](https://www.freecodecamp.org/news/)
 - [4PDA:](https://4pda.to/) - Всё о мобильных устройствах и технологиях
@@ -215,6 +291,7 @@ mini/micro infrastructure(client–server arch): app for data processing
 - [Python 3.12+]() - основной язык.
 - [uv (или pip + venv)]() - менеджмент пакетов и виртуальных окружений.
 - [pip-tools]() - управление зависимостями.
+- conf, ini, yaml, yml, json - файлы настроек, конфигурации
 
 4. ML / DL Фреймворки
 - [PyTorch, TensorFlow]() -  (по необходимости)
@@ -1004,14 +1081,20 @@ Memory: 4834MiB / 7271MiB
 
 
 
+### cyberpunk, science-fiction movies
+
+- [Матрица (1999-2021)](https://www.kinopoisk.ru/film/301/?utm_referrer=web.telegram.org)
+- [Welcome to the official YouTube channel of the Cyberpunk 2077 franchise ](https://www.youtube.com/user/CyberPunkGame)
+- [Cyberpunk 2077 OffSite](https://www.cyberpunk.net/us/en/) - Home of the Cyberpunk 2077 universe — games, anime, more
+- [youtube/@peacheslamb3546](https://www.youtube.com/playlist?list=PLh4Eme5gACZHUMKXIgedqlMXnDDPGIqTn) - 149 soundtrack
+- [](https://www.youtube.com/channel/UCmMzqlRl2b3KDWAv691S-AA) - Ма́рцин Пшибыло́вич — польский композитор и звукорежиссёр. Ведьмак 3 и Cyberpunk 2077
 
 
+### - [ascii table](https://asciiart.website/) - in terminal
+- ascii terminal art
 
-
-
-
-
-
+- [ascii table](https://asciiart.website/) - in terminal
+- ascii terminal art
 
 
 
@@ -1072,14 +1155,6 @@ Xiaomi, Samsung, D-link, TpLink, Mikrotik, Asus, HP, LG
 * Строительные лестницы и стремянки
 TV Samsung/Xiaomi 2/4K 109cm
 монитор msi, samsung 2/4K HD,FULLHD-2000
-
-
-
-
-
-
-
-
 
 
 
