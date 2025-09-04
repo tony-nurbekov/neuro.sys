@@ -2,6 +2,7 @@
 
 ## Contents
 
+- [awesome computing](#awesome-computing)
 - [The Important Information/Data Source](#the-important-information-data-source)
 - [Computing](#computing)
 - [awesome-systems-of-github](#awesome-systems-of-github)
@@ -31,6 +32,77 @@
 
 
 
+
+### awesome computing
+
+1. Теория
+1.1 CS. База
+* Системы счисления
+* Булева алгебра
+* Память
+* Единицы измерения
+* Процессор
+* Модель выполнения программы
+* Загрузка компьютера
+* Создание ассемблера
+* Архитектура набора команд
+* Режимы работы процессора
+* Регистры общего назначения
+* Опкоды
+* Пересылка данных
+-----
+1.2 C++ / Assembler (Низкий уровень)
+* Процесс компиляции
+* Переменные
+* Ссылки
+* Указатели
+* Отрицательные числа
+* Переполнения
+* Условия
+* Массивы
+* Циклы
+* Функции
+* Стек
+* Область видимости
+* Сборка мусора
+* Строки
+* Рекурсия
+* Динамическое программирование
+* Числа с плавающей точкой
+* Преобразование типов
+-----
+1.3 Windows / Linux (Операционные системы)
+* Модель памяти 16 бит
+* Модель памяти 32 бит
+* Модель памяти 64 бит
+* Процессы и потоки
+* Прерывания
+* Управление памятью
+* Portable Executable
+* Executable and Linkable Format
+* Файловые системы
+* Драйверы
+------
+2. Практика
+2.1 Алгоритмы и структуры данных
+* Big O
+* Массивы
+* Стек
+* Очередь
+* Связный список
+* Хэш таблицы
+* Поиск с возвратом
+* Деревья
+* Графы
+* Сортировки
+* Динамическое программирование
+* Биты
+* указател
+* Жадные алгоритмы
+* Матрицы
+---------
+
+
 ## The Important Information, Data Source 
 
 * [Wikipedia:Contents/Portals](https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals)
@@ -51,42 +123,42 @@
 
 Компьютер – это машина, обрабатывающая данные в соответствии с набором инструкций, 
 называемым компьютерной программой.
-
-
+Теоритичесская Информатика - наука о информациия/данные, вычислениях и автоматизации.
 
 ### awesome systems of github
 
-* [awesome-github Lists](https://github.com/topics/awesome) - An awesome list is a list of awesome things curated by the community.
-* [awesome-interesting](https://github.com/sindresorhus/awesome) - Awesome lists about all kinds of interesting topics
+- [awesome-github Lists](https://github.com/topics/awesome) - An awesome list is a list of awesome things curated by the community.
+- [awesome-interesting](https://github.com/sindresorhus/awesome) - Awesome lists about all kinds of interesting topics
 
 
 
 ### Awesome YouTube
 
-* [> YouTube/@Диджитализируй!](https://youtube.com/@t0digital) - Хардкорная веб-разработка 
-* [Диджитализируй авторский курс ](https://course.to.digital/) — мой авторский курс
-* [site/digitalize](https://digitalize.team) - Диджитализируй! делает сложные информационные системы для бизнеса
-* [site/digitalize](https://salesbeat.pro) - модуль доставки для интернет-магазинов, каким он должен быть
-* [site/to.digital](https://to.digital/) - Сайт книжный клуб, в котором мы читаем и прорабатываем хорошие ИТ книги
-* [youtube/@GNU Linux Pro](https://www.youtube.com/@GNULinuxPro) - Youtube chanel Про GNU/Linux и IT
-* [youtube/@Alek OS](https://youtube.com/@AlekOS) - Вечное совершенствование себя через осмысливание новой информации
-* [site/@stashchuk](https://stashchuk.com) - development and DevOps courses
-* [youtube/@Bogdan Stashchuk](www.youtube.com/@Bogdan_Stashchuk) - development and DevOps courses
-* [youtube.com/@artsorax](https://www.youtube.com/@artsorax) - Уроки веб-разработки
+- [youtube/@artsorax](https://www.youtube.com/@artsorax) - Уроки веб-разработки
+- [> YouTube/@Диджитализируй!](https://youtube.com/@t0digital) - Хардкорная веб-разработка 
+- [Диджитализируй авторский курс ](https://course.to.digital/) — мой авторский курс
+- [site/digitalize](https://digitalize.team) - Диджитализируй! делает сложные информационные системы для бизнеса
+- [site/digitalize](https://salesbeat.pro) - модуль доставки для интернет-магазинов, каким он должен быть
+- [site/to.digital](https://to.digital/) - Сайт книжный клуб, в котором мы читаем и прорабатываем хорошие ИТ книги
+- [youtube/@GNU Linux Pro](https://www.youtube.com/@GNULinuxPro) - Youtube chanel Про GNU/Linux и IT
+- [youtube/@Alek OS](https://youtube.com/@AlekOS) - Вечное совершенствование себя через осмысливание новой информации
+- [site/@stashchuk](https://stashchuk.com) - development and DevOps courses
+- [youtube/@Bogdan Stashchuk](www.youtube.com/@Bogdan_Stashchuk) - development and DevOps courses
+
 
 
 
 ### awesome cheatsheet
 
-* [curl cheat.sh ](https://github.com/chubin/cheat.sh) - The only cheat sheet you need
-* [tildr-pages](https://github.com/tldr-pages/tldr) - The Best cheat sheet
-* [ascii table](https://asciiart.website/) - in terminal
-* [data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook.git) - This is a repo with links to everything you'd ever want to learn about data engineering
-* [freeCodeCamp.org/news](https://www.freecodecamp.org/news/)
-* [4PDA:](https://4pda.to/) - Всё о мобильных устройствах и технологиях
-* [adilet.zan.kz](https://adilet.zan.kz/kaz) - Қазақстан Республикасы нормативтік құқықтық актілерінің ақпараттық-құқықтық жүйесі
-* [zona.plus](https://w140.zona.plus/) - torrent for movie, games
-> Docker, VirtualBox, VSCode, Python, PyTorch, Github Copilot, HuggingFace + LangChain + Whisper.
+- [curl cheat.sh ](https://github.com/chubin/cheat.sh) - The only cheat sheet you need
+- [tildr-pages](https://github.com/tldr-pages/tldr) - The Best cheat sheet
+- [ascii table](https://asciiart.website/) - in terminal
+- [data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook.git) - This is a repo with links to everything you'd ever want to learn about data engineering
+- [freeCodeCamp.org/news](https://www.freecodecamp.org/news/)
+- [4PDA:](https://4pda.to/) - Всё о мобильных устройствах и технологиях
+- [adilet.zan.kz](https://adilet.zan.kz/kaz) - Қазақстан Республикасы нормативтік құқықтық актілерінің ақпараттық-құқықтық жүйесі
+- [zona.plus](https://w140.zona.plus/) - torrent for movie, games
+- Docker, VirtualBox, VSCode, Python, PyTorch, Github Copilot, HuggingFace + LangChain + Whisper.
 
 
 
@@ -182,9 +254,10 @@ mini/micro infrastructure(client–server arch): app for data processing
 - [ChromaDB]() - локальная база
 
 11. OpenAI API:
-* [The OpenAI Cookbook](https://cookbook.openai.com/) - open-source examples and guides for building with the OpenAI API
-* [ChatGPT](https://chatgpt.com/) - Experiment with ChatGPT
-* [OpenAI Blog](https://openai.com/news/) - Stay updated with the OpenAI Blog
+- [The OpenAI Cookbook](https://cookbook.openai.com/) - open-source examples and guides for building with the OpenAI API
+- [ChatGPT](https://chatgpt.com/) - Experiment with ChatGPT
+- [OpenAI Blog](https://openai.com/news/) - Stay updated with the OpenAI Blog
+- [OpenAI developer platform](https://platform.openai.com/docs/overview)
 
 12. Grok:
 * [x.AI (Grok)](https://x.ai/grok) - для запуска llm
@@ -229,9 +302,10 @@ Supported by the Free Software Foundation
 Поскольку мы получаем огромную выгоду от изобретений других, 
 мы должны быть рады возможности послужить другим любым нашим 
 изобретением, и мы должны делать это свободно и щедро.
+
 - Бенджамин Франклин, «Автобиография»
 * [Planet GNU](ttps://gnu.org)
-* [Free Software Directory](https://directory.fsf.org/wiki/Main_Page)
+* [Free Software Directory](https://directory.fsf.org/wiki/Main_Page) — по содействию свободе пользователей компьютеров. 
 * [GNU toolchain - обширная коллекция инструментов программирования созданная проектом GNU]()
 * [GNU Autotools (система сборки)  – набор инструментов для сборки ПО от GNU]()
 * [GNU Binutils  – инструменты разработки ПО GNU]()
@@ -264,56 +338,54 @@ sudo apt install clang llvm lld
 ```
 
 
-
 ### Virtualization (Hypervisors) - отдельная ОС, изоляция
 
-> https://www.digitalocean.com/ - VPS Hosting DigitalOcean - упростить облако и ИИ, 
-чтобы разработчики могли больше времени уделять созданию ПО. (sorax/youtube@sorax recommended)
-* [VirtualBox](https://www.virtualbox.org/)
-* [VMWare/QEMU](https://www.vmware.com/)
-* [Kernel-based Virtual Machine (KVM)](https://linux-kvm.org/page/Main_Page)
-* [Professional Android Studio Emulator](https://developer.android.com/studio/run/emulator)
-* [Genymotion]()
-* [NVIDIA CUDA /ROCm]()
-* [Virtual Private Server (VPS) is a virtual machine for virtualization]()
+- [DigitalOcean ](https://www.digitalocean.com/) - VPS Hosting youtube@sorax recommended 
+- [VirtualBox](https://www.virtualbox.org/)
+- [VMWare/QEMU](https://www.vmware.com/)
+- [Kernel-based Virtual Machine (KVM)](https://linux-kvm.org/page/Main_Page)
+- [Professional Android Studio Emulator](https://developer.android.com/studio/run/emulator)
+- [Genymotion]()
+- [NVIDIA CUDA /ROCm]()
+- [Virtual Private Server (VPS) is a virtual machine for virtualization]()
 
 
 ### Containers - изоляция приложений, сервис + совместное ядро с основной системой
 
-* [docker-github](https://github.com/docker) - Docker помогает разработчикам воплощать свои идеи в жизнь
-* [Manuals/Docker Engine](https://docs.docker.com/engine/) - Official Documentation Docker Engine
-* [Install Docker Engine](https://docs.docker.com/engine/install/ubuntu/) - Install Docker Engine on Ubuntu
-* [download Docker Engine](https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/) - 
+- [docker-github](https://github.com/docker) - Docker помогает разработчикам воплощать свои идеи в жизнь
+- [Manuals/Docker Engine](https://docs.docker.com/engine/) - Official Documentation Docker Engine
+- [Install Docker Engine](https://docs.docker.com/engine/install/ubuntu/) - Install Docker Engine on Ubuntu
+- [download Docker Engine](https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/) - 
 Repo for download Docker/Docker Compose
-* [Docker Hub](https://hub.docker.com/)
-* [Docker Model Runner (DMR)](https://docs.docker.com/ai/model-runner/) - упрощает управление, запуск и развертывание 
+- [Docker Hub](https://hub.docker.com/)
+- [Docker Model Runner (DMR)](https://docs.docker.com/ai/model-runner/) - упрощает управление, запуск и развертывание 
 больших языковых моделей (LLM) и других моделей ИИ непосредственно из Docker Hub или любого реестра, совместимого с OCI.
 ---
-* [awesome-docker](https://github.com/veggiemonk/awesome-docker.git) - A curated list of Docker resources and projects
-* [awesome-compose](https://github.com/docker/awesome-compose.git) - Awesome Docker Compose samples
-* [docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet.git) - Docker Cheat Sheet
+- [awesome-docker](https://github.com/veggiemonk/awesome-docker.git) - A curated list of Docker resources and projects
+- [awesome-compose](https://github.com/docker/awesome-compose.git) - Awesome Docker Compose samples
+- [docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet.git) - Docker Cheat Sheet
 ---
-* [Podman](https://podman.io/)
-* [LXC (Linux Containers) ](https://linuxcontainers.org/)
+- [Podman](https://podman.io/)
+- [LXC (Linux Containers) ](https://linuxcontainers.org/)
 
 
 
 ### The Art of Programming: Данные и Методы(Функция) их обработки(инструкция/данные):
 
 Информационные процессы, Алгоритмы(обработка)/Структуры данных(хранение):
-* Данные — информация пригодный для сбор, хранение, обработки и передачи.
+- Данные — информация пригодный для сбор, хранение, обработки и передачи.
 Одни и те же данные могут быть закодированы различным образом и иметь различный объём.
-* Функция — фрагмент программного кода, которая выполняет конкретную задачу.  
-  * algorithms and data structures >> heart of informatics:: Полные по Тьюрингу
-  * syntax: типы данных, переменные, функция, ветвление, цикл
-  * library and framework 
-* Обработка данных/информации 
+- Функция — фрагмент программного кода, которая выполняет конкретную задачу.  
+  - algorithms and data structures >> heart of informatics:: Полные по Тьюрингу
+  - syntax: типы данных, переменные, функция, ветвление, цикл
+  - library and framework 
+- Обработка данных/информации 
 
 Тайные правила современной жизни: 
 АЛГОРИТМЫ и СТРУКТУРЫ ДАННЫХ
 «АлгориТмы + сТрукТуры ДанныХ = пРограммы» 
 Никлаус Вирт creator lang Pascal
-*** Github | Building the Future
+> Github | Building the Future
 https://github.com/TheAlgorithms
 Open Source resource for learning 
 Data Structures & Algorithms = Programs
@@ -571,10 +643,10 @@ kali/blackarch tools
 * [cheatsheetseries.owasp](https://cheatsheetseries.owasp.org)  - MobileApp-Pentest-Cheatsheet:
 
 4. Vulnerability Scanning
-OpenVAS – Open-source vulnerability scanner.
-Nikto – Web server scanner for security vulnerabilities.
-Nessus (not included by default) – Professional vulnerability scanner.
-SQLmap – Automated SQL injection tool.
+- OpenVAS – Open-source vulnerability scanner.
+- Nikto – Web server scanner for security vulnerabilities.
+- Nessus (not included by default) – Professional vulnerability scanner.
+- SQLmap – Automated SQL injection tool.
 
 5. Wireless Attacks
 - [Aircrack-ng – Suite for WEP/WPA cracking](https://www.aircrack-ng.org/doku.php?id=faq#what_is_the_best_wireless_card_to_buy)
@@ -733,12 +805,12 @@ API Низкого уровня(WindowsAPI, Linux syscalls)
 Файлы и Файловые системы, Планировщик Процессы/Потоки, Демоны/Службы
 Учётные записи пользователей, Управление памятью, Ввод/Вывод(I/O)
 Драйверы, Сетевая подсистема, Виртуализция]
-
+-------------------------------------------
 Структура операционной системы линукс 
 (ядро линукс  +  стандартная библиотека C)
 Структура языков программирование,  
 Java/С/С++(ядро языка (синтаксис) +  стандартная библиотека)
-
+----------------------------------
 * Ubuntu Desktop / Debian / Fedora
 * [awesome-linux](https://github.com/inputsh/awesome-linux.git) - 🐧 A list of awesome projects and resources that make Linux even more awesome. 
 * [Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software.git) - A list of awesome Linux softwares
@@ -784,15 +856,15 @@ USB/HDD/SSD/Google/Dropbox/Yandex Cloud:
 Машина Тьюринга — это общий пример центрального процессора;
 Полнота Тьюринга: [действие/функция/методы, переменные, ветвление, циклы]
 
-* Microprocessors(CPU) >> Арифметика-Логичесские операции:
+- Microprocessors(CPU) >> Арифметика-Логичесские операции:
 Intel and AMD, ARM Cortex, Qualcomm, Broadcom Inc, Exynos, Kirin, MediaTek
-* Microcontrollers >> Electronic component: 
+- Microcontrollers >> Electronic component: 
 печатная плата(printed circuit board, PCB)- предназначена для электрического 
 и механического соединения различных электронных компонентов:
 transistor, resistors, condensatio, кремний, 
 AVR microcontrollers, Microchip Technology, ARM, Atmel ATmega328, ARM Cortex, 
 ESP32/ESP8266/STM32
-* Computing Platform: x86_64, ARM(Advanced RISC Machines), ARM64, aarch64, MIPS
+- Computing Platform: x86_64, ARM(Advanced RISC Machines), ARM64, aarch64, MIPS
 Чем arm64 отличается от x86_64 (amd64)?
 x86-64 (также известный как x64 , x86_64, AMD64 и Intel 64) 
 – стандартная 64-битная архитектура для процессоров Intel и AMD (обычные ПК, серверы).
@@ -824,20 +896,15 @@ Architecture ЭВМ   = Аппаратное обеспечение/железо
 интерфейс, помогающий ОС управлять аппаратными устройствами.)
 
 
-001. neofetch - GNU/Linux tools for system info
+1. neofetch - GNU/Linux tools for system info
 montana@HP-Notebook:/data/neuron.ink$ neofetch --off
 ------------------------------------- 
 OS: Ubuntu 24.04.2 LTS x86_64 
 Host: HP Notebook 
 Kernel: 6.11.0-26-generic 
-Uptime: 2 hours, 1 min 
 Packages: 1852 (dpkg), 13 (snap) 
 Shell: bash 5.2.21 
-Resolution: 1600x900 
 DE: GNOME 46.0 
-WM: Mutter 
-WM Theme: Adwaita 
-Theme: Yaru-prussiangreen-dark [GTK2/3]  
 Terminal: gnome-terminal 
 CPU: Intel i3-5005U (4) @ 1.900GHz 
 GPU: Intel HD Graphics 5500 
@@ -846,7 +913,7 @@ Memory: 2746MiB / 11873MiB
 
 
 
-OS: Android 14 aarch64 a.k.a ARM
+2. OS: Android 14 aarch64 a.k.a ARM
 ~/storage/downloads $ neofetch --off
 u0_a360@localhost
 -----------------
@@ -884,8 +951,8 @@ Memory: 4834MiB / 7271MiB
 энергонезависимой памяти любого цифрового вычислительного устройства — видеокамеры, 
 сотового телефона, GPS-навигатора и т.д в которой содержится его программа.
 
-* Программируемые микрокомпьютеры RaspberryPi
-* Программируемые микроконтроллеры (печатная плата Arduino Uno/Nano/Mega)
+- Программируемые микрокомпьютеры RaspberryPi
+- Программируемые микроконтроллеры (печатная плата Arduino Uno/Nano/Mega)
 
 
 
@@ -895,20 +962,21 @@ Memory: 4834MiB / 7271MiB
 
 ### video survellance
 
-* Видеонаблюдение (IPcamera/IPTV/IPtelephony; hikvision/hiwatch)
+Видеонаблюдение (IPcamera/IPTV/IPtelephony; hikvision/hiwatch)
 Видеорегистратор HiWatch DS-N332/4 + Network switch()
 Стандарты YouTube
 Лидер рынка видеохостинга YouTube для видео с соотношением сторон 
 16:9 рекомендует использовать следующие разрешения:
-4320p (8K): 7680 x 4320
-2160p (4K): 3840 x 2160
-1440p (2K): 2560 x 1440
-1080p (Full HD): 1920 x 1080
-720p (HD): 1280 x 720
-480p (SD): 854 x 480
-360p (SD): 640 x 360
-240p (SD): 426 x 240
-144p (SD): 256 × 144
+
+- 4320p (8K): 7680 x 4320
+- 2160p (4K): 3840 x 2160
+- 1440p (2K): 2560 x 1440
+- 1080p (Full HD): 1920 x 1080
+- 720p (HD): 1280 x 720
+- 480p (SD): 854 x 480
+- 360p (SD): 640 x 360
+- 240p (SD): 426 x 240
+- 144p (SD): 256 × 144
 
 
 
@@ -916,9 +984,9 @@ Memory: 4834MiB / 7271MiB
 
 ### Repair computer
 
-* [@Hetman-Software](https://www.youtube.com/@Hetman-Software) - Восстановление данных и ремонт ПК
-* [](https://hetmanrecovery.com/ru/support.htm) - Гайд по ремонту и восстановлении удаленных данных
-* [remontka.pro](https://remontka.pro/) - ремонт компьютеров, Android, iPhone
+- [@Hetman-Software](https://www.youtube.com/@Hetman-Software) - Восстановление данных и ремонт ПК
+- [](https://hetmanrecovery.com/ru/support.htm) - Гайд по ремонту и восстановлении удаленных данных
+- [remontka.pro](https://remontka.pro/) - ремонт компьютеров, Android, iPhone
 
 
 
@@ -926,11 +994,11 @@ Memory: 4834MiB / 7271MiB
 
 ### Messengers, Social Networks
 
-* [pinterest](https://www.pinterest.com/ideas/)
-* [reddit](https://www.reddit.com/)
-* [x.com](http://x.com/)
-* [youtube](https://www.youtube.com)
-* [web.telegram.org](https://web.telegram.org/)
+- [pinterest](https://www.pinterest.com/ideas/)
+- [reddit](https://www.reddit.com/)
+- [x.com](http://x.com/)
+- [youtube](https://www.youtube.com)
+- [web.telegram.org](https://web.telegram.org/)
 
 
 
@@ -990,7 +1058,6 @@ Xiaomi, Samsung, D-link, TpLink, Mikrotik, Asus, HP, LG
 * Видеорегистратор ip camera hikvision/hiwatch DS-N332 + switch
 * RAM DDR1-5 1300-1600Mhz 
 * Флешка сисадмина[Cергей Стрелец]
-* VM VirtualBox/VMware
 * Переходник USB/SATA/USB Type-C
 * Переходник HDMI > VGA < HDMI
 * Переходник - Док-Станция USB/HDMI/RG45/Type-C
@@ -1040,99 +1107,6 @@ TV Samsung/Xiaomi 2/4K 109cm
 
 
 
-
-
-
-
-
-
-
-
-
-
-### youtube/ALEK OS - Computer Science Roadmap
-
-1. Теория
-1.1 CS. База
-* Системы счисления
-* Булева алгебра
-* Память
-* Единицы измерения
-* Процессор
-* Модель выполнения программы
-* Загрузка компьютера
-* Создание ассемблера
-* Архитектура набора команд
-* Режимы работы процессора
-* Регистры общего назначения
-* Опкоды
-* Пересылка данных
-...
-1.2 C++ / Assembler (Низкий уровень)
-* Процесс компиляции
-* Переменные
-* Ссылки
-* Указатели
-* Отрицательные числа
-* Переполнения
-* Условия
-* Массивы
-* Циклы
-* Функции
-* Стек
-* Область видимости
-* Сборка мусора
-* Строки
-* Рекурсия
-* Динамическое программирование
-* Числа с плавающей точкой
-* Преобразование типов
-...
-1.3 Windows / Linux (Операционные системы)
-* Модель памяти 16 бит
-* Модель памяти 32 бит
-* Модель памяти 64 бит
-* Процессы и потоки
-* Прерывания
-* Управление памятью
-* Portable Executable
-* Executable and Linkable Format
-* Файловые системы
-* Драйверы
-...
-2. Практика
-2.1 Алгоритмы и структуры данных
-* Big O
-* Массивы
-* Стек
-* Очередь
-* Связный список
-* Хэш таблицы
-* Поиск с возвратом
-* Деревья
-* Графы
-* Сортировки
-* Динамическое программирование
-...
-2.2 Решение задач
-* Биты
-* Рекурсия
-* Строки
-* Скользящее окно
-* Стек и очередь
-* Два указателя
-* Массивы
-* Связный список
-* Сортировки
-* Деревья
-* Графы
-* Хэш таблицы
-* Интервалы
-* Компрессия
-* Жадные алгоритмы
-* Матрицы
-* Поиск с возвратом
-...
 
 
 
